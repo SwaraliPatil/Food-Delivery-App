@@ -48,8 +48,6 @@
 
 ## API Root Endpoint
 
-`https://localhost:8008/`
-
 `http://localhost:8008/swagger-ui.html`
 
 ### Sample API Response for Customer Login
@@ -61,9 +59,9 @@
 ```
     {
         
-        "password": "Aamir@123",
+        "password": "Swarali@123",
         "userId": 1,
-        "userName": "AamirSohail"
+        "userName": "swarali"
     }
 ```
 
@@ -75,3 +73,8 @@
 
     }
 ```
+The Food Delivery Platform API is a backend application that provides RESTful endpoints for users to order food from restaurants. It is built using Java and the Spring Boot framework, making it easy to develop, maintain, and scale. The API follows a structured data flow, with controllers handling incoming requests, services implementing business logic, and repositories managing data access to the MySQL database.
+
+Users can register, log in, and place orders for food items. The admin has additional privileges to add new food items and perform CRUD operations on food items. The data structure includes entities for users and food items, each with specific attributes to store relevant information.
+
+This API lays the foundation for building a fully functional food delivery platform that can be further expanded with additional features like payment processing, delivery tracking, and user reviews. It is designed to be secure, scalable, and easily extensible to meet the needs of a real-world food delivery service.
